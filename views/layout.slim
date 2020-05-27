@@ -1,0 +1,15 @@
+doctype html
+html lang="en"
+  head
+    title== @title || "SunOS nodes title"
+    meta charset="utf-8"
+  body
+    header
+    h1 SunOS nodes
+    nav
+      ul
+        li <a href="/" title="Home">Home</a>
+        li <a href="/about" title="About">About</a>
+        li <a href="/contact" title="Contact">Contact</a>
+  section
+    == yield
